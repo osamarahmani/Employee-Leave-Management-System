@@ -7,8 +7,8 @@ export default function AdminDash() {
   const navigate           = useNavigate()
   const [leaves,  setL]    = useState([])
   const [loading, setLd]   = useState(true)
-  const [tab,     setTab]  = useState('all')      // 'all' | 'pending'
-  const [modal,   setModal]= useState(null)        // leave object being reviewed
+  const [tab,     setTab]  = useState('all')      
+  const [modal,   setModal]= useState(null)        
   const [note,    setNote] = useState('')
 
   const load = () => {
